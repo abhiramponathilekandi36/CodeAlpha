@@ -7,3 +7,8 @@ If you are just looking for a good sniffer, then you should probably use tcpdump
 If you have fun building things yourself, or if you like to be able to turn every little knob, then this program-along tutorial is for you.
 
 I expect you to have a basic understanding of the ISO/OSI (or TCP/IP) network model and beginner tier Python3 skills. We will write this application on Linux since it gives us greater freedom when it comes to sniffing low level traffic.
+
+
+All we really need for this is access to a raw socket. Which the Python3 socket API happily provides us with (requires root priviliges):
+
+
